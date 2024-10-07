@@ -50,8 +50,8 @@ double h(const double x)
         do
         {
             i++;
-            // double R = pow(x, 2 * i) / ((2 * i - 2) * (2 * i - 1) * 2 * i);
-            double R = pow(x, 2 * i) / ((2 * i + 1) * (2 * i));
+            double R = (x * x) / ((2 * i - 1) * 2 * i);
+            // double R = pow(x, 2 * i) / ((2 * i + 1) * (2 * i));
             S += R;
         } while (i < 6);
         return (1 / cos(x)) * S;

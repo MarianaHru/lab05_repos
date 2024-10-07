@@ -21,5 +21,5 @@ int main()
 
 double k(const double x, const double y) // визначення
 {
-    return (sin(x) / (x * x) + (y * y)) + (cos(x) / 1. + abs(x * y));
+    return (sin(x) / ((x * x) + (y * y))) + (cos(x) / 1. + abs(x * y));
 }
