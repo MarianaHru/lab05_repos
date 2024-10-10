@@ -47,6 +47,8 @@ int binomialCoefficientRecursive(int n, int k)
     return result;
 }
 
+#ifndef UNIT_TESTING
+
 int main()
 {
     int n, k;
@@ -70,3 +72,5 @@ int main()
 
     return 0;
 }
+
+#endif
