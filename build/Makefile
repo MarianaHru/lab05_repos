@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.30.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5
+CMAKE_SOURCE_DIR = /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/build
+CMAKE_BINARY_DIR = /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/build/CMakeFiles /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/build/CMakeFiles /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -154,6 +154,19 @@ lab5_3_unit_test: cmake_check_build_system
 lab5_3_unit_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_3_unit_test.dir/build.make CMakeFiles/lab5_3_unit_test.dir/build
 .PHONY : lab5_3_unit_test/fast
+
+#=============================================================================
+# Target rules for targets named lab5_4_unit_test
+
+# Build rule for target.
+lab5_4_unit_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab5_4_unit_test
+.PHONY : lab5_4_unit_test
+
+# fast build rule for target.
+lab5_4_unit_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_4_unit_test.dir/build.make CMakeFiles/lab5_4_unit_test.dir/build
+.PHONY : lab5_4_unit_test/fast
 
 lab5_1/lab5_1.o: lab5_1/lab5_1.cpp.o
 .PHONY : lab5_1/lab5_1.o
@@ -299,6 +312,54 @@ lab5_3/lab5_3_unit_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_3_unit_test.dir/build.make CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.s
 .PHONY : lab5_3/lab5_3_unit_test.cpp.s
 
+lab5_4/lab5_4.o: lab5_4/lab5_4.cpp.o
+.PHONY : lab5_4/lab5_4.o
+
+# target to build an object file
+lab5_4/lab5_4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_4_unit_test.dir/build.make CMakeFiles/lab5_4_unit_test.dir/lab5_4/lab5_4.cpp.o
+.PHONY : lab5_4/lab5_4.cpp.o
+
+lab5_4/lab5_4.i: lab5_4/lab5_4.cpp.i
+.PHONY : lab5_4/lab5_4.i
+
+# target to preprocess a source file
+lab5_4/lab5_4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_4_unit_test.dir/build.make CMakeFiles/lab5_4_unit_test.dir/lab5_4/lab5_4.cpp.i
+.PHONY : lab5_4/lab5_4.cpp.i
+
+lab5_4/lab5_4.s: lab5_4/lab5_4.cpp.s
+.PHONY : lab5_4/lab5_4.s
+
+# target to generate assembly for a file
+lab5_4/lab5_4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_4_unit_test.dir/build.make CMakeFiles/lab5_4_unit_test.dir/lab5_4/lab5_4.cpp.s
+.PHONY : lab5_4/lab5_4.cpp.s
+
+lab5_4/lab5_4_unit_test.o: lab5_4/lab5_4_unit_test.cpp.o
+.PHONY : lab5_4/lab5_4_unit_test.o
+
+# target to build an object file
+lab5_4/lab5_4_unit_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_4_unit_test.dir/build.make CMakeFiles/lab5_4_unit_test.dir/lab5_4/lab5_4_unit_test.cpp.o
+.PHONY : lab5_4/lab5_4_unit_test.cpp.o
+
+lab5_4/lab5_4_unit_test.i: lab5_4/lab5_4_unit_test.cpp.i
+.PHONY : lab5_4/lab5_4_unit_test.i
+
+# target to preprocess a source file
+lab5_4/lab5_4_unit_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_4_unit_test.dir/build.make CMakeFiles/lab5_4_unit_test.dir/lab5_4/lab5_4_unit_test.cpp.i
+.PHONY : lab5_4/lab5_4_unit_test.cpp.i
+
+lab5_4/lab5_4_unit_test.s: lab5_4/lab5_4_unit_test.cpp.s
+.PHONY : lab5_4/lab5_4_unit_test.s
+
+# target to generate assembly for a file
+lab5_4/lab5_4_unit_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5_4_unit_test.dir/build.make CMakeFiles/lab5_4_unit_test.dir/lab5_4/lab5_4_unit_test.cpp.s
+.PHONY : lab5_4/lab5_4_unit_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -310,6 +371,7 @@ help:
 	@echo "... lab5_1_unit_test"
 	@echo "... lab5_2_unit_test"
 	@echo "... lab5_3_unit_test"
+	@echo "... lab5_4_unit_test"
 	@echo "... lab5_1/lab5_1.o"
 	@echo "... lab5_1/lab5_1.i"
 	@echo "... lab5_1/lab5_1.s"
@@ -328,6 +390,12 @@ help:
 	@echo "... lab5_3/lab5_3_unit_test.o"
 	@echo "... lab5_3/lab5_3_unit_test.i"
 	@echo "... lab5_3/lab5_3_unit_test.s"
+	@echo "... lab5_4/lab5_4.o"
+	@echo "... lab5_4/lab5_4.i"
+	@echo "... lab5_4/lab5_4.s"
+	@echo "... lab5_4/lab5_4_unit_test.o"
+	@echo "... lab5_4/lab5_4_unit_test.i"
+	@echo "... lab5_4/lab5_4_unit_test.s"
 .PHONY : help
 
 

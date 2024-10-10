@@ -1,5 +1,5 @@
 CMakeFiles/lab5_2_unit_test.dir/lab5_2/lab5_2_unit_test.cpp.o: \
-  /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/lab5_2/lab5_2_unit_test.cpp \
+  /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/lab5_2/lab5_2_unit_test.cpp \
   /Users/tarasgrudzinskij/Documents/semestr_1/програмування/vcpkg/installed/x64-osx/include/gtest/gtest.h \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__config \
@@ -284,4 +284,4 @@ CMakeFiles/lab5_2_unit_test.dir/lab5_2/lab5_2_unit_test.cpp.o: \
   /Users/tarasgrudzinskij/Documents/semestr_1/програмування/vcpkg/installed/x64-osx/include/gtest/gtest-typed-test.h \
   /Users/tarasgrudzinskij/Documents/semestr_1/програмування/vcpkg/installed/x64-osx/include/gtest/gtest_pred_impl.h \
   /Users/tarasgrudzinskij/Documents/semestr_1/програмування/vcpkg/installed/x64-osx/include/gtest/gtest_prod.h \
-  /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/lab5_2/./lab5_2.h
+  /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/lab5_2/./lab5_2.h

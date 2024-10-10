@@ -1,5 +1,5 @@
-CMakeFiles/lab5_2_unit_test.dir/lab5_2/lab5_2.cpp.o: \
-  /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/lab5_2/lab5_2.cpp \
+CMakeFiles/lab5_4_unit_test.dir/lab5_4/lab5_4.cpp.o: \
+  /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/lab5_4/lab5_4.cpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread.h \
@@ -225,5 +225,4 @@ CMakeFiles/lab5_2_unit_test.dir/lab5_2/lab5_2.cpp.o: \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cmath

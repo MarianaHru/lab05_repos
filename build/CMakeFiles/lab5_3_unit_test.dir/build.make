@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.30.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5
+CMAKE_SOURCE_DIR = /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/build
+CMAKE_BINARY_DIR = /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab5_3_unit_test.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/lab5_3_unit_test.dir/progress.make
 include CMakeFiles/lab5_3_unit_test.dir/flags.make
 
 CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.o: CMakeFiles/lab5_3_unit_test.dir/flags.make
-CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.o: /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/lab5_3/lab5_3_unit_test.cpp
+CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.o: /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/lab5_3/lab5_3_unit_test.cpp
 CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.o: CMakeFiles/lab5_3_unit_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.o -MF CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.o.d -o CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.o -c /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/lab5_3/lab5_3_unit_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.o -MF CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.o.d -o CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.o -c /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/lab5_3/lab5_3_unit_test.cpp
 
 CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/lab5_3/lab5_3_unit_test.cpp > CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/lab5_3/lab5_3_unit_test.cpp > CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.i
 
 CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/lab5_3/lab5_3_unit_test.cpp -o CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/lab5_3/lab5_3_unit_test.cpp -o CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3_unit_test.cpp.s
 
 CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.o: CMakeFiles/lab5_3_unit_test.dir/flags.make
-CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.o: /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/lab5_3/lab5_3.cpp
+CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.o: /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/lab5_3/lab5_3.cpp
 CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.o: CMakeFiles/lab5_3_unit_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.o -MF CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.o.d -o CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.o -c /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/lab5_3/lab5_3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.o -MF CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.o.d -o CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.o -c /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/lab5_3/lab5_3.cpp
 
 CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/lab5_3/lab5_3.cpp > CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/lab5_3/lab5_3.cpp > CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.i
 
 CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/lab5_3/lab5_3.cpp -o CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/lab5_3/lab5_3.cpp -o CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.s
 
 # Object files for target lab5_3_unit_test
 lab5_3_unit_test_OBJECTS = \
@@ -112,7 +112,7 @@ lab5_3_unit_test: /Users/tarasgrudzinskij/Documents/semestr_1/програмув
 lab5_3_unit_test: /Users/tarasgrudzinskij/Documents/semestr_1/програмування/vcpkg/installed/x64-osx/debug/lib/manual-link/libgtest_main.a
 lab5_3_unit_test: /Users/tarasgrudzinskij/Documents/semestr_1/програмування/vcpkg/installed/x64-osx/debug/lib/libgtest.a
 lab5_3_unit_test: CMakeFiles/lab5_3_unit_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab5_3_unit_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab5_3_unit_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab5_3_unit_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/lab5_3_unit_test.dir/clean:
 .PHONY : CMakeFiles/lab5_3_unit_test.dir/clean
 
 CMakeFiles/lab5_3_unit_test.dir/depend:
-	cd /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5 /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5 /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/build /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/build /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/build/CMakeFiles/lab5_3_unit_test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/build /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/build /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/build/CMakeFiles/lab5_3_unit_test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/lab5_3_unit_test.dir/depend
 

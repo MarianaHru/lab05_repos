@@ -1,4 +1,4 @@
-# Install script for directory: /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5
+# Install script for directory: /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

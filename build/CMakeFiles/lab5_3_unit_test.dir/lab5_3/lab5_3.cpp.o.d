@@ -1,5 +1,5 @@
 CMakeFiles/lab5_3_unit_test.dir/lab5_3/lab5_3.cpp.o: \
-  /Users/tarasgrudzinskij/Documents/semestr_1/програмування/lab5/lab5_3/lab5_3.cpp \
+  /Users/tarasgrudzinskij/Documents/semestr_1/lab05_repos/lab5_3/lab5_3.cpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread.h \
