@@ -1,76 +1,41 @@
 #include <iostream>
 using namespace std;
 
-int recursionDepth = 0; // Поточна глибина рекурсії
-int maxDepth = 0;       // Максимальна досягнута глибина
-
-// Функція для обчислення факторіала
-int factorial(int n)
+// Функція для обчислення біноміального коефіцієнта з рекурсією
+int binomialCoefficient(int n, int k, int level, int &maxDepth)
 {
-    int result = 1;
-    for (int i = 2; i <= n; i++)
+    // Оновлюємо максимальну глибину, якщо поточний рівень більше
+    if (level > maxDepth)
     {
-        result *= i;
-    }
-    return result;
-}
-
-// Функція для обчислення біноміального коефіцієнта через факторіали
-int binomialCoefficientFactorial(int n, int k)
-{
-    return factorial(n) / (factorial(k) * factorial(n - k));
-}
-
-// Рекурсивна функція для обчислення біноміального коефіцієнта з відстеженням глибини і рівня
-int binomialCoefficientRecursive(int n, int k)
-{
-    recursionDepth++; // Збільшення поточної глибини
-    if (recursionDepth > maxDepth)
-    {
-        maxDepth = recursionDepth; // Оновлення максимальної глибини
+        maxDepth = level;
+        cout << "level = " << level << endl;
     }
 
-    // Виведення поточного рівня рекурсії
-    cout << "Рівень рекурсії: " << recursionDepth << ", n = " << n << ", k = " << k << endl;
-
-    // Базовий випадок
+    // Базовий випадок: якщо k = 0 або k = n
     if (k == 0 || k == n)
-    {
-        recursionDepth--; // Зменшення глибини при поверненні
         return 1;
-    }
 
-    // Рекурсивний випадок
-    int result = binomialCoefficientRecursive(n - 1, k - 1) + binomialCoefficientRecursive(n - 1, k);
-
-    recursionDepth--; // Зменшення глибини при поверненні
-    return result;
+    // Рекурсивний випадок: використовуємо формулу
+    return binomialCoefficient(n - 1, k - 1, level + 1, maxDepth) + binomialCoefficient(n - 1, k, level + 1, maxDepth);
 }
-
-#ifndef UNIT_TESTING
 
 int main()
 {
     int n, k;
+    int maxDepth = 0; // Змінна для збереження максимальної глибини рекурсії
 
-    // Введення значень n і k
-    cout << "Введіть значення n: ";
+    // Введення значень n та k
+    cout << "Введіть n: ";
     cin >> n;
-    cout << "Введіть значення k: ";
+    cout << "Введіть k: ";
     cin >> k;
 
-    // Обчислення біноміального коефіцієнта через факторіали
-    int resultFactorial = binomialCoefficientFactorial(n, k);
-    cout << "Біноміальний коефіцієнт C(" << n << ", " << k << ") через факторіали = " << resultFactorial << endl;
+    // Виклик функції для обчислення біноміального коефіцієнта
+    int result = binomialCoefficient(n, k, 1, maxDepth); // Початковий рівень = 1
 
-    // Обчислення біноміального коефіцієнта рекурсивно
-    int resultRecursive = binomialCoefficientRecursive(n, k);
-    cout << "Біноміальний коефіцієнт C(" << n << ", " << k << ") рекурсивно = " << resultRecursive << endl;
-
-    // Виведення максимальної глибини рекурсії
-    cout << "Максимальна глибина рекурсії: " << maxDepth << endl;
+    // Виведення результату
+    cout << "Біноміальний коефіцієнт C(" << n << ", " << k << ") = " << result << endl;
+    cout << "level: " << maxDepth << endl;
 
     return 0;
 }
-
-#endif
